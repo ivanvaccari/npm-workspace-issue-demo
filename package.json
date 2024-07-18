@@ -1,0 +1,17 @@
+{
+    "name": "test-ws",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "workspaces": [
+        "onepackage"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "overrides": {
+        "express": "^4.0.0"
+    },
+    "author": "",
+    "license": "ISC"
+}
